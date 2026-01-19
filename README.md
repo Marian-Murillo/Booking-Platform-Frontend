@@ -1,12 +1,29 @@
 # Booking-Platform-Frontend
-### Frontend
-- Next.js (App Router)
-- TypeScript
-- Tailwind CSS
-- React Date Range
+# 🏠 Full-Stack Booking Platform (Airbnb Clone)
+
+A full-stack booking platform inspired by Airbnb, built to demonstrate real-world product architecture, authentication, role-based access, and reservation logic.
+
+## 🚀 Live Demo
+- Frontend: https://your-vercel-app.vercel.app  
+- Backend API: https://your-render-api.onrender.com  
+
+---
+
+## 🛠 Tech Stack
+
+### Backend
+- Node.js
+- Express.js
+- JWT Authentication
+
+### Database
+- MongoDB Atlas
+- Mongoose ODM
+
 ### Deployment
 - Frontend: Vercel  
-- Backend: Render
+- Backend: Render  
+
 ## ✨ Features
 
 ### 🔐 Authentication & Authorization
