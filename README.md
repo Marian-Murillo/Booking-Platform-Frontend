@@ -55,3 +55,22 @@
 ---
 
 ## 📂 Project Structure (High Level)
+frontend/
+├── app/
+│ ├── page.tsx
+│ ├── login/
+│ ├── register/
+│ ├── property/[id]/
+│ └── my-bookings/
+│
+## 💬 About This Project
+
+This project was built as part of my journey as a Full Stack Developer to demonstrate my ability to build scalable, secure, and user-friendly web applications using modern technologies.
+
+Feel free to reach out if you have any questions or feedback!
+
+---
+
+### 👩‍💻 Built by **Marian Murillo**
+- GitHub: https://github.com/Marian-Murillo
+- LinkedIn: https://www.linkedin.com/in/marian-murillo/
