@@ -18,7 +18,7 @@ export default function CreateProperty() {
 
     const token = localStorage.getItem("token");
 
-    await fetch("http://localhost:5000/api/properties", {
+    await fetch(`${process.env.NEXT_PUBLIC_API_URL}/properties`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

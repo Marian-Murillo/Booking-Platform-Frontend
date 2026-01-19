@@ -17,7 +17,7 @@ export default function MyBookings() {
       return;
     }
 
-    fetch("http://localhost:5000/api/bookings/my", {
+    fetch(`${process.env.NEXT_PUBLIC_API_URL}/bookings/my` , {
       headers: {
         Authorization: `Bearer ${token}`
       }

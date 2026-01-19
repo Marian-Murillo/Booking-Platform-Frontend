@@ -23,7 +23,7 @@ export default function PropertyDetail() {
 
   // Cargar propiedad y fechas no disponibles
   useEffect(() => {
-    fetch(`http://localhost:5000/api/properties/${id}`)
+    fetch(`${process.env.NEXT_PUBLIC_API_URL}/properties/${id}`)
       .then(res => res.json())
       .then(data => {
         setProperty(data);
@@ -69,7 +69,7 @@ export default function PropertyDetail() {
       return;
     }
 
-    const res = await fetch("http://localhost:5000/api/bookings", {
+    const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/bookings`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
